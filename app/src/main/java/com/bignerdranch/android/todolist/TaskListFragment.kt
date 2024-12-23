@@ -70,7 +70,6 @@ class TaskListFragment : Fragment(R.layout.fragment_task_list){
             task_num.text = task.priority.toString()
         }
     }
-
     private inner class TaskAdapter(var tasks: MutableList<Task>) : RecyclerView.Adapter<TaskHolder>() {
         override fun onCreateViewHolder(parent : ViewGroup, viewType: Int) : TaskHolder {
             val view = layoutInflater.inflate(R.layout.list_item_task, parent, false)
@@ -87,7 +86,6 @@ class TaskListFragment : Fragment(R.layout.fragment_task_list){
             notifyDataSetChanged()
         }
     }
-
     private fun SwipeToDel()
     {
         val itemTouchHelper = object : ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT)
@@ -109,8 +107,6 @@ class TaskListFragment : Fragment(R.layout.fragment_task_list){
         }
         ItemTouchHelper(itemTouchHelper).attachToRecyclerView(recyclerView)
     }
-
-
 
     override fun onResume() {
         super.onResume()
