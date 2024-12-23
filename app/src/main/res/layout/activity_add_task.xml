@@ -39,21 +39,21 @@
 
         <RadioButton
             android:id="@+id/low_priority"
-            android:layout_width="137dp"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:background="#FFEA1B"
             android:text="@string/low" />
 
         <RadioButton
             android:id="@+id/medium_priority"
-            android:layout_width="143dp"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:background="#FF9800"
             android:text="@string/medium" />
 
         <RadioButton
             android:id="@+id/high_priority"
-            android:layout_width="136dp"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_red_light"
             android:text="@string/high" />
