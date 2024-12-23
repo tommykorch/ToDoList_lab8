@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="describe_your_task">Describe your task...</string>
+    <string name="priority">Priority</string>
+    <string name="add">ADD</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+</resources>
